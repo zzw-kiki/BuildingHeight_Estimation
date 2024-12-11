@@ -17,7 +17,7 @@ The sample data is stored in the **sample-BHNet** directory. The **S1**, **S2**,
 
 2.Training and predcition
 ----
-* The training code is **train_BHNet.py**, and the weight files are stored in **runs/BHNet_10m_10%_300epoch/finetune_298.rar**. We only uploaded the weights trained with the reference building heights after removing the top 10% of the maximum heights. The log folder contains the training logs of 300 iterations using different reference building heights, including the overall training loss, as well as the training losses and RMSE for each branch.
+* The training code is **train_BHNet.py**, and the weight files are stored in **runs/BHNet_10m_10%_300epoch/finetune_298.rar**. We only uploaded the weights trained with the reference building heights after removing the top 10% of the maximum heights. The **log** folder contains the training logs of 300 iterations using different reference building heights, including the overall training loss, as well as the training losses and RMSE for each branch.
 * Perform global prediction: **BHNet_predict.ipynb**, slice the input data of Shanghai into 400×400 pixel segments and then stitch the results together.
 
 3.Evaluation
