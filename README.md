@@ -18,9 +18,7 @@ The sample data is stored in the **sample-BHNet** directory. The **S1**, **S2**,
 2.Training and predcition
 ----
 * The training code is **train_BHNet.py**, and the weight files are stored in **runs/BHNet_10m_10%_300epoch/finetune_298.rar**. We only uploaded the weights trained with the reference building heights after removing the top 10% of the maximum heights. The **log** folder contains the training logs of 300 epoches using different reference building heights, including the overall training loss, as well as the training losses and RMSE for each branch.
-![image](https://github.com/user-attachments/assets/1e1b07a9-9825-415f-89e7-80c52c1b047a)
-![image](https://github.com/user-attachments/assets/39fa5677-325e-4820-87b4-4021c991862c)
-
+![image](https://github.com/user-attachments/assets/1e1b07a9-9825-415f-89e7-80c52c1b047a)![image](https://github.com/user-attachments/assets/89a27346-0142-4ae6-9327-def4977f2d9b)
 * Perform global prediction: **BHNet_predict.ipynb**, slice the input data of Shanghai into 400×400 pixel segments and then stitch the results together.
 
 3.Evaluation
@@ -37,6 +35,7 @@ For the entire Shanghai area, 100,000 random points are selected for accuracy va
 ---
 * The prediction results for 2019 and 2023 are stored in the **Result** folder, with the projection coordinate system set to WGS84 UTM51N. For pixels with predicted values less than 0, we set them to 0.
 ![image](https://github.com/user-attachments/assets/f946d02b-c1c9-4272-869c-d4cf558ee2ec)
+![image](https://github.com/user-attachments/assets/73848ff6-74a5-4148-87f1-2cf102f1cff4)
 ![image](https://github.com/user-attachments/assets/828a5cbd-f503-46dd-8d8e-7055191a538a)
 ![image](https://github.com/user-attachments/assets/917caba5-3b5f-45d8-81f9-bdcfdc4200ea)
 
