@@ -32,7 +32,7 @@ For the entire Shanghai area, 100,000 random points are selected for accuracy va
 
 5.Result
 ---
-* The prediction results for 2019 and 2023 are stored in the **Result folder**, with the projection coordinate system set to WGS84 UTM51N. For pixels with predicted values less than 0, we set them to 0.
+* The prediction results for 2019 and 2023 are stored in the **Result** folder, with the projection coordinate system set to WGS84 UTM51N. For pixels with predicted values less than 0, we set them to 0.
 ![image](https://github.com/user-attachments/assets/f946d02b-c1c9-4272-869c-d4cf558ee2ec)
 ![image](https://github.com/user-attachments/assets/828a5cbd-f503-46dd-8d8e-7055191a538a)
 ![image](https://github.com/user-attachments/assets/917caba5-3b5f-45d8-81f9-bdcfdc4200ea)
